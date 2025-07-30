@@ -12,5 +12,6 @@ public class Mergedarray {
         mergedList.addAll(Arrays.asList(arr2));
         mergedList.sort(Collections.reverseOrder());
         System.out.println(mergedList);
+        
     }
 }
