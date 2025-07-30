@@ -12,6 +12,8 @@ public class Mergedarray {
         mergedList.addAll(Arrays.asList(arr2));
         mergedList.sort(Collections.reverseOrder());
         System.out.println(mergedList);
+        // Output: [9, 7, 6, 4, 3, 1]
+        System.out.println("The largest element is: " + mergedList.get(0));
         
     }
 }
